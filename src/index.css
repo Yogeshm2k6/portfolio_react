@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Force custom cursor on everything */
+:root, html, body, * {
+  cursor: url('/tech-cursor.svg') 2 2, auto !important;
+}
+
+/* Force custom cursor for interactive elements to ensure the icon stays consistent */
+a, button, [role="button"], input, select, textarea, label, .cursor-pointer {
+  cursor: url('/tech-cursor.svg') 2 2, pointer !important;
+}
