@@ -637,7 +637,7 @@ const App = () => {
               <div className="absolute -inset-4 bg-gradient-to-r from-emerald-500 to-teal-500 rounded-2xl opacity-20 blur-xl group-hover:opacity-40 transition-opacity duration-700"></div>
               <div className="relative aspect-square rounded-2xl bg-neutral-900 border border-neutral-800 overflow-hidden">
                  <img 
-                   src="public/IMG_2102.jpg" 
+                   src="public/profile.jpg" 
                    alt="Yogesh M" 
                    className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
                  />
